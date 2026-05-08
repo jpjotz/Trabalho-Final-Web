@@ -1,0 +1,53 @@
+Nome do projeto: Vira-Página
+
+Link da publicação: (inserir após a hospedagem do site)
+
+Participantes:
+
+Raylla Silva— Tech Lead, Designer Gráfico e  Desenvolvedora Front-End 2
+João Pedro — Desenvolvedor Front-End 1
+Sofia Dias - Redator de Conteúdo
+
+Objetivo principal do projeto:
+
+O Vira-Página é uma aplicação web focada em troca de livros entre usuários.
+A proposta é criar uma experiência simples, rápida e acessível para leitores compartilharem obras entre si.
+
+Descrição:
+
+O site é voltado para a divulgação livros usados de diferentes gêneros que estão disponíveis para troca. A plataforma 
+reúne informações sobre os livros, a localização e um canal de comunicação para que os leitores combinem o horário de 
+troca, permitindo que a comunidade tenha acesso facilitado aos livros de interesse.
+
+Finalidade:
+
+O projeto não está sendo desenvolvido especificamente para um grupo familiar ou atender uma demanda social já existente. 
+Trata-se de um tema escolhido pela equipe que visa um impacto coletivo, buscando oferecer um acesso facilitado a leitura, 
+ao mesmo tempo, atender às exigências acadêmicas da disciplina.
+
+Participação:
+
+Sim, houve participação de todos os integrantes da equipe. Cada membro assumiu funções específicas e contribuiu 
+ativamente para o desenvolvimento do projeto. 
+Raylla atua como Tech Lead, Designer Gráfico e Desenvolvedora Front-End 2, sendo responsável pela organização 
+técnica, construção da parte estética do site e parte da programação. 
+João participa ativamente como Desenvolvedor Front-End 1, sendo o desenvolvedor principal na construção e 
+estrturação das páginas,implementação de funcionalidades e suporte ao desenvolvimento geral. 
+Sofia atua como redatora de todo o site, criando textos atrativos, verificando o uso correto da lingua portuguesa 
+e atuando como suporte ao desenvolvimento geral e criativo.
+A colaboração em trio garantiu equilíbrio nas tarefas e avanço consistente do projeto.
+
+Aplicação do projeto:
+
+Sim, o conhecimento teórico da disciplina foi aplicado de forma prática no desenvolvimento do projeto. 
+Foram utilizados conceitos de HTML, CSS e JavaScript para estruturar páginas, organizar layouts, criar 
+interatividade e proporcionar uma experiência funcional ao usuário de forma rápida e organizada.
+
+Conclusão:
+
+O projeto Vira-Página demonstra como a programação web pode ser utilizada como ferramenta de estudo e 
+transformação social, permitindo uma maior interação entre diferentes pessoas e grupos sociais. Além de consolidar 
+os conhecimentos adquiridos na disciplina, o site conecta pessoas que desejam realizar trocas de livros por outros
+que estejam em bom estados utilizando um modelo que já foi testado de forma presencial, porém, de uma forma mais 
+dinamica podendo ser adaptado a rotina da pessoa que está realizando a troca. A experiência reforçou a importância 
+de criar tecnologias acessíveis, funcionais e alinhadas às necessidades da sociedade.
