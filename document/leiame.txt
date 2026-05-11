@@ -32,7 +32,7 @@ ativamente para o desenvolvimento do projeto.
 Raylla atua como Tech Lead, Designer Gráfico e Desenvolvedora Front-End 2, sendo responsável pela organização 
 técnica, construção da parte estética do site e parte da programação. 
 João participa ativamente como Desenvolvedor Front-End 1, sendo o desenvolvedor principal na construção e 
-estrturação das páginas,implementação de funcionalidades e suporte ao desenvolvimento geral. 
+estruturação das páginas, implementação de funcionalidades e suporte ao desenvolvimento geral. 
 Sofia atua como redatora de todo o site, criando textos atrativos, verificando o uso correto da lingua portuguesa 
 e atuando como suporte ao desenvolvimento geral e criativo.
 A colaboração em trio garantiu equilíbrio nas tarefas e avanço consistente do projeto.
