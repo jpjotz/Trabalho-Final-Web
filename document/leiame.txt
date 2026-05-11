@@ -23,7 +23,7 @@ Finalidade:
 
 O projeto não está sendo desenvolvido especificamente para um grupo familiar ou atender uma demanda social já existente. 
 Trata-se de um tema escolhido pela equipe que visa um impacto coletivo, buscando oferecer um acesso facilitado a leitura, 
-ao mesmo tempo, atender às exigências acadêmicas da disciplina.
+ao mesmo tempo, atende às exigências acadêmicas da disciplina.
 
 Participação:
 
