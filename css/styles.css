@@ -5,68 +5,46 @@
     font-family: "Iosevka Charon";
 }
 
+body {
+    overflow: hidden;
+}
+
 header {
     display: flex;
     flex-direction: column;
     background-color: #3C2D20;
-    height: 200px;
-}
-
-#search {
-    padding: 20px;
-    width: 100%;
-    padding-left: 45px;
-    margin-right: 15px;
-    background-color: #895727;
-    border-color: #d37d2c;
-}
-
-#search::placeholder {
-    color: #c8b099;
-}
-
-.search-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-#search-icon {
     position: relative;
-    left: 30px;
-    align-self: center;
-    color: #d97e2f;
-    padding-left: 10px;
 }
 
-/* 📱 MOBILE FIRST (base = celular) */
+/* NAV */
 
 nav {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
-.nav-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+/* LOGO */
 
 .logo-img {
-    width: 80px;
-    transform: scale(2);
+    display: flex;
+    align-items: center;
+    z-index: 2;
 }
 
 .logo {
-    width: 100%;
-    padding-left: 10px;
-    margin-bottom: 10px;
+    width: 90px;
     cursor: pointer;
+}
+
+/* BOTÕES */
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    z-index: 2;
 }
 
 .login,
@@ -75,6 +53,7 @@ nav {
     border: 0;
     color: white;
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .login {
@@ -85,88 +64,127 @@ nav {
     font-size: 30px;
 }
 
+.loginButton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.loginButton:hover .login,
+.loginButton:hover #icon-person,
+.menu:hover {
+    color: #d97e2f;
+}
+
+#icon-person {
+    font-size: 22px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+/* SEARCH */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px 25px;
+    margin-right: 10px;
+}
+
+#search-icon {
+    position: relative;
+    left: 35px;
+    color: #d97e2f;
+}
+
+#search {
+    width: 100%;
+    max-width: 700px;
+    padding: 15px 20px 15px 45px;
+    background-color: #895727;
+    border: 2px solid #d37d2c;
+    color: #f7ece3;
+    border-radius: 10px;
+}
+
+#search::placeholder {
+    color: #c8b099;
+}
+
 .separador {
     display: none;
 }
 
-.loginButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
+/* DESKTOP */
 
-#icon-person {
-    font-size: 25px;
-    color: white;
-}
-
-/* 💻 TABLET / DESKTOP */
 @media (min-width: 1024px) {
 
     header {
-        height: 140px;
         background-color: #ded1bf;
+        height: 130px;
+    }
+
+    nav {
+        padding: 20px 60px;
+    }
+
+    .logo {
+        width: 140px;
+        padding-top: 10px;
+    }
+
+    .nav-buttons {
+        gap: 40px;
+    }
+
+    .login {
+        font-size: 28px;
+        color: #3C2D20;
+    }
+
+    .menu {
+        font-size: 45px;
+        color: #3C2D20;
+    }
+
+    .nav-buttons {
+        padding-top: 10px;
+    }
+
+    #icon-person {
+        font-size: 28px;
+        color: #3C2D20;
+    }
+
+    .search-bar {
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     #search {
-        font-size: 15px;
-        max-width: 60%;
-        width: 100%;
+        max-width: 40%;
         border-radius: 100px;
         background-color: #d6975a;
-    }
-
-    .login:hover {
-        background-color: #d97e2f;
+        font-size: 16px;
     }
 
     #search::placeholder {
         color: #f6e0cc;
     }
 
-    #search-icon {
-        color: #d97e2f;
-    }
-
-    .nav-buttons {
-        gap: 50px;
-    }
-
-    .logo-img {
-        width: 80px;
-        transform: scale(1);
-    }
-
-    .logo {
-        width: 150px;
-        transform: scale(1);
-    }
-
-    .menu {
-        font-size: 50px;
-    }
-
-    .login {
-        font-size: 30px;
-    }
-
-    .search-bar {
-        position: relative;
-        bottom: 120px;
-    }
-
     .separador {
+        display: block;
         height: 40px;
         background-color: #3C2D20;
-        display: block;
     }
-
-    .loginButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
 }
