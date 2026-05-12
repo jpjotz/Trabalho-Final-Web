@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vira-Página</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <figure class="logo-img">
+                <img class='logo' src="image/logosite.png" alt="Logo Site">
+            </figure>
+
+            <section class="nav-buttons">
+                <div class="loginButton">
+                    <i id="icon-person" class="fa-regular fa-user"></i>
+                    <button class="login" onclick="loginTest()">Entrar</button>
+                </div>
+                <button class="menu">☰</button>
+            </section>
+
+        </nav>
+
+        <div class="search-bar">
+            <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+            <input id="search" type="text" placeholder="Digite livro ou autor a ser pesquisado">
+        </div>
+
+    </header>
+
+    <div class="separador"></div>
+
+    <script>
+        function loginTest() {
+            alert('teste')
+        }
+    </script>
 </body>
+
 </html>
