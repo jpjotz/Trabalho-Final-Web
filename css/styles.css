@@ -7,6 +7,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #ded1bf;
 }
 
 header {
@@ -34,7 +35,7 @@ nav {
 }
 
 .logo {
-    width: 90px;
+    width: 120px;
     cursor: pointer;
 }
 
@@ -61,7 +62,7 @@ nav {
 }
 
 .menu {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .loginButton {
@@ -114,7 +115,92 @@ nav {
 }
 
 .separador {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C2D20;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+    max-height: 0;
+    
+}
+
+.show {
+    display: block;
+    max-height: 200px;
+    border-top: 0.5px solid #633f21;
+}
+
+.navegation-buttons {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 5px;
+}
+
+.navegation-buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #c8b099;
+}
+
+.info {
     display: none;
+}
+
+.livros-destaque {
+    background-color: #d8a674;
+    height: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.title-destaque {
+    padding: 5px 0 0 5px;
+    color: #3C2D20
+}
+
+.capa-livros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    gap: 10px;
+
+    overflow-x: auto;
+
+    scroll-behavior: smooth;
+}
+
+.categoria {
+    margin-top: 10px;
+}
+
+.generos-title {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+.generos-figuras {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tipo-genero {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.nome-genero {
+    padding: 10px;
+    position: absolute;
+    top: 68%;
+    left: 58px;
 }
 
 /* DESKTOP */
@@ -126,12 +212,45 @@ nav {
         height: 130px;
     }
 
-    nav {
+    .separador {
+        display: block;
+        margin-bottom: 20px;
+        max-height: 100%;
+        position: static;
+        background-color: #3C2D20;
+        animation: animacaoNav 1.4s ease-in-out;
+    }
+
+    .nav-header {
         padding: 20px 60px;
     }
 
+    .navegation-buttons {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: center;
+        align-content: center;
+        gap: 50px;
+    }
+
+    .navegation-buttons a {
+        text-decoration: none;
+        color: #3C2D20;
+        background-color: #d37d2c;
+        padding: 5px 15px 5px 15px;
+        border-radius: 90px;
+        font-size: 20px;
+        transition: color 0.2s ease;
+    }
+
+    .navegation-buttons a:hover {
+        color: white;
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    }
+
     .logo {
-        width: 140px;
+        width: 160px;
         padding-top: 10px;
     }
 
@@ -145,12 +264,11 @@ nav {
     }
 
     .menu {
-        font-size: 45px;
-        color: #3C2D20;
+        display: none;
     }
 
     .nav-buttons {
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     #icon-person {
@@ -161,7 +279,7 @@ nav {
     .search-bar {
         position: absolute;
 
-        top: 50%;
+        top: 55%;
         left: 50%;
 
         transform: translate(-50%, -50%);
@@ -176,15 +294,58 @@ nav {
         border-radius: 100px;
         background-color: #d6975a;
         font-size: 16px;
+        color: #46372b;
     }
 
     #search::placeholder {
-        color: #f6e0cc;
+        color: #46372b;
     }
 
-    .separador {
-        display: block;
-        height: 40px;
-        background-color: #3C2D20;
+
+    .info {
+        background-color: #d8a674;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
     }
+
+    .texto-info {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .texto-info p {
+        max-width: 87%;
+    }
+
+    .person-image {
+        max-width: 270px;
+    }
+
+    .livros-destaque {
+        width: 100%;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .capa-livros {
+        justify-content: space-evenly;
+    }
+
+    @keyframes animacaoNav {
+        0% {
+            max-height: 0px;
+        }
+
+        100% {
+            max-height: 300px;
+        }
+    }
+
+
 }

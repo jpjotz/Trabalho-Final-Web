@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vira-Página</title>
+    <link rel="shortcut icon" href="image/logosite.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -18,17 +19,19 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="nav-header">
             <figure class="logo-img">
-                <img class='logo' src="image/logosite.png" alt="Logo Site">
+                <a href="index.html">
+                    <img class='logo' src="image/logosite.png" alt="Logo Site">
+                </a>
             </figure>
 
             <section class="nav-buttons">
                 <div class="loginButton">
                     <i id="icon-person" class="fa-regular fa-user"></i>
-                    <button class="login" onclick="loginTest()">Entrar</button>
+                    <button class="login">Entrar</button>
                 </div>
-                <button class="menu">☰</button>
+                <button class="menu" onclick="modalHandler()">☰</button>
             </section>
 
         </nav>
@@ -40,12 +43,63 @@
 
     </header>
 
-    <div class="separador"></div>
+    <div class="separador">
+        <nav class="navegation-buttons">
+            <a href="index.html">Home</a>
+            <a href="">Contato</a>
+            <a href="">Cálculo de Livros</a>
+            <a href="">Como funciona</a>
+            <a href="">Sobre</a>
+        </nav>
+    </div>
+
+    <section class="info">
+        <div class="texto-info">
+            <p>
+                Conecte-se com leitores e leitoras. Compartilhe histórias e versos.
+            </p>
+            
+            <p>
+                Troque páginas! O que não pode é deixar o livro guardado sem contar sua história.
+            </p>
+        </div>
+
+        <figure>
+            <img class="person-image" src="image/man-character-reading-book-free-png.webp" alt="">
+        </figure>
+    </section>
+
+    <section class="livros-destaque">
+        <p class="title-destaque">Livros em Destaque</p>
+
+        <div class="capa-livros">
+            <figure>
+                <img src="image/percy_jackson.png" alt="">
+            </figure>
+
+            <figure>
+                <img src="image/jogos_vorazes_01.png" alt="">
+            </figure>
+
+            <figure>
+                <img src="image/apocalipse_livro.png" alt="">
+            </figure>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2 class="generos-title">Gêneros Literários</h2>
+
+
+            
+    </section>
 
     <script>
-        function loginTest() {
-            alert('teste')
+        function modalHandler() {
+            const modal = document.querySelector(".separador");
+            modal.classList.toggle("show");
         }
+
     </script>
 </body>
 
