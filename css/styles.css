@@ -205,6 +205,15 @@ nav {
     position: relative;
 }
 
+.generos-grid a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #3C2D20;
+    }
+
 .genero-nome {
     text-align: center;
     top: 50px;
