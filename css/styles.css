@@ -206,13 +206,13 @@ nav {
 }
 
 .generos-grid a {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        text-decoration: none;
-        color: #3C2D20;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #3C2D20;
+}
 
 .genero-nome {
     text-align: center;
@@ -222,7 +222,7 @@ nav {
 }
 
 .generos-grid img {
-    width: 190px;
+    width: 100%;
     height: 190px;
 }
 
@@ -412,6 +412,11 @@ nav {
     .conteudo-home {
         display: flex;
         flex-direction: column;
+    }
+
+    .generos-grid img {
+        width: 100%;
+        height: 100%;
     }
 
     @keyframes animacaoNav {
