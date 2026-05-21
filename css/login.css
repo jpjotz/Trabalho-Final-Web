@@ -95,6 +95,7 @@ button {
 }
 
 .loginBtn {
+    font-family: "DM Sans", sans-serif;
     font-size: 16px;
     background-color: var(--laranja-login);
     color: white;
@@ -103,6 +104,11 @@ button {
     border: none;
     width: 80%;
     margin-top: 5px;
+}
+
+.loginBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.03);
 }
 
 .esqueceu-senha {
@@ -136,6 +142,7 @@ hr {
 }
 
 .authBtn {
+    font-family: "DM Sans", sans-serif;
     border: none;
     background-color: white;
     color: black;
@@ -150,6 +157,11 @@ hr {
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.authBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.463) 0px 5px 15px;
+    transform: scale(1.03);
 }
 
 .tipo-login {
