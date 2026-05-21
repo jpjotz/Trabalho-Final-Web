@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vira-Página</title>
     <link rel="shortcut icon" href="image/logosite.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,6 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -22,12 +23,12 @@
         <nav class="nav-header">
             <figure class="logo-img">
                 <a href="index.html">
-                    <img class='logo' src="image/logosite.png" alt="Logo Site">
+                    <img class='logo' src="image/index//logosite.png" alt="Logo Site">
                 </a>
             </figure>
 
             <section class="nav-buttons">
-                <div class="loginButton">
+                <div class="loginButton" onclick="window.location.href='./pages/login.html' ">
                     <i id="icon-person" class="fa-regular fa-user"></i>
                     <button class="login">Entrar</button>
                 </div>
@@ -66,29 +67,14 @@
         </div>
 
         <figure>
-            <img class="person-image" src="image/man-character-reading-book-free-png.webp" alt="Pessoa lendo livro">
+            <img class="person-image" src="image/index/man-character-reading-book-free-png.webp" alt="Pessoa lendo livro">
         </figure>
     </section>
 
     <section class="conteudo-home">
         <section class="livros-destaque">
             <p class="title-destaque">Livros em Destaque</p>
-            <div class="capa-livros">
-                <figure>
-                    <img src="image/percy_jackson.png" alt="Capa Percy Jackson">
-                    <p>Percy Jackson e o ladrão de raios</p>
-                </figure>
-
-                <figure>
-                    <img src="image/jogos_vorazes_01.png" alt="Capa Jogos Vorazes">
-                    <p>Jogos Vorazes</p>
-                </figure>
-
-                <figure>
-                    <img src="image/apocalipse_livro.png" alt="Capa Apocalipse">
-                    <p>Apocalipse</p>
-                </figure>
-            </div>
+            <div id="livros-destaques" class="capa-livros"></div>
 
         </section>
 
@@ -98,7 +84,7 @@
                 <div class="genero-opcao">
                     <a href="">
                         <figure>
-                            <img src="image/Logo_livros_academicos.png" alt="Gênero Acadêmico">
+                            <img src="image/index/Logo_livros_academicos.png" alt="Gênero Acadêmico">
                         </figure>
                         <p class="genero-nome">Acadêmicos</p>
                     </a>
@@ -106,7 +92,7 @@
                 <div class="genero-opcao">
                     <a href="">
                         <figure>
-                            <img src="image/logo_livros_terror.png" alt="Gênero Terror">
+                            <img src="image/index/logo_livros_terror.png" alt="Gênero Terror">
                         </figure>
                         <p class="genero-nome">Terror</p>
                     </a>
@@ -114,7 +100,7 @@
                 <div class="genero-opcao">
                     <a href="">
                         <figure>
-                            <img src="image/logo_livros_fantasia.png" alt="Gênero Fantasia">
+                            <img src="image/index/logo_livros_fantasia.png" alt="Gênero Fantasia">
                         </figure>
                         <p class="genero-nome">Fantasia</p>
                     </a>
@@ -122,7 +108,7 @@
                 <div class="genero-opcao">
                     <a href="">
                         <figure>
-                            <img src="image/logos_livros_ficcao.png" alt="Gênero Ficção Científica">
+                            <img src="image/index/logos_livros_ficcao.png" alt="Gênero Ficção Científica">
                         </figure>
                         <p class="genero-nome">Ficção Científica</p>
                     </a>
@@ -130,7 +116,7 @@
                 <div class="genero-opcao">
                     <a href="">
                         <figure>
-                            <img src="image/logo_livros_romance.png" alt="Gênero Romance">
+                            <img src="image/index/logo_livros_romance.png" alt="Gênero Romance">
                         </figure>
                         <p class="genero-nome">Romance</p>
                     </a>
@@ -138,7 +124,7 @@
                 <div class="genero-opcao">
                     <a href="">
                         <figure>
-                            <img src="image/logo_livros_suspense.png" alt="Gênero Ficção Científica">
+                            <img src="image/index/logo_livros_suspense.png" alt="Gênero Ficção Científica">
                         </figure>
                         <p class="genero-nome">Suspense</p>
                     </a>
@@ -146,7 +132,7 @@
                 <div class="genero-opcao">
                     <a href="">
                         <figure>
-                            <img src="image/logo_livros_religiosos.png" alt="Gênero Religioso">
+                            <img src="image/index/logo_livros_religiosos.png" alt="Gênero Religioso">
                         </figure>
                         <p class="genero-nome">Religiosos</p>
                     </a>
@@ -231,20 +217,14 @@
             <section class="perguntas-area">
                 <details>
                     <summary class="perguntas-title">● Teste pergunta 2?</summary>
-                    <p class="perguntas-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laborum natus, reprehenderit laudantium odio rerum delectus inventore praesentium facilis magnam sunt incidunt hic veritatis esse vitae dolor sint aliquam dolorum.</p>
+                    <p class="perguntas-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                        laborum natus, reprehenderit laudantium odio rerum delectus inventore praesentium facilis magnam
+                        sunt incidunt hic veritatis esse vitae dolor sint aliquam dolorum.</p>
                 </details>
             </section>
         </div>
     </section>
 
 </body>
-
-<script>
-    function modalHandler() {
-        const modal = document.querySelector(".separador");
-        modal.classList.toggle("show");
-    }
-
-</script>
 
 </html>
