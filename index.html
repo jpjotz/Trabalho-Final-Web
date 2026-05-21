@@ -46,10 +46,11 @@
     <div class="separador">
         <nav class="navegation-buttons">
             <a href="index.html">Home</a>
-            <a href="">Contato</a>
-            <a href="">Cálculo de Livros</a>
-            <a href="#como-funciona">Como funciona</a>
-            <a href="">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Cálculo de Livros</a>
+            <a href="#como-funciona">Livros</a>
+            <a href="#">Trocas</a>
+            <a href="#">Sobre</a>
         </nav>
     </div>
 
@@ -154,13 +155,96 @@
         </section>
     </section>
 
-    <script>
-        function modalHandler() {
-            const modal = document.querySelector(".separador");
-            modal.classList.toggle("show");
-        }
+    <section class="como-funciona">
+        <div class="comofunciona-header">
+            <h3 class="como-funciona-titulo">Como Funciona?</h3>
+        </div>
 
-    </script>
+        <div class="como-funciona-descricao">
+            <p class="como-funciona-texto">Pronto para começar um novo capítulo? É assim que a gente faz a página virar
+                por aqui:</p>
+        </div>
+
+        <div class="como-funciona-content">
+            <section class="content-area">
+                <p class="content-title">01. Cadastre-se</p>
+                <p class="content-description">Crie sua conta gratuitamente preenchendo o formulário que está no menu. É
+                    rápido, simples e o
+                    primeiro passo para fazer parte da nossa rede de leitores e leitoras.</p>
+            </section>
+
+            <hr>
+
+            <section class="content-area">
+                <p class="content-title">02. Adicione livros</p>
+                <p class="content-description">Abra sua estante para o mundo!
+                    Toque no ícone de adicionar, suba uma foto caprichada
+                    e conte para a gente o título, o autor e uma breve descrição
+                    do que aquela obra tem de especial. </p>
+            </section>
+
+            <hr>
+
+            <section class="content-area">
+                <p class="content-title">03. Encontre novas histórias</p>
+                <p class="content-description">Navegue pela nossa galeria de livros ou use a busca para encontrar aquela
+                    obra que
+                    desperte seu interesse.
+                    São milhares de versos e páginas esperando por você.</p>
+            </section>
+
+            <hr>
+
+            <section class="content-area">
+                <p class="content-title">04. Combine a troca</p>
+                <p class="content-description">Achou o que queria? É só apertar no botão
+                    "Trocar Livro". Você será levado direto para o
+                    nosso chat para conversar com o outro leitor
+                    e combinar como a história vai chegar até você</p>
+            </section>
+
+            <hr>
+
+        </div>
+    </section>
+
+    <section class="perguntas-frequentes">
+        <div class="perguntas-frequentes-header">
+            <h3 class="perguntas-frequentes-title">Perguntas Frequentes</h3>
+        </div>
+
+        <div class="perguntas-content">
+            <section class="perguntas-area">
+                <details>
+                    <summary class="perguntas-title">● Como funciona a troca de livros por aqui?</summary>
+                    <p class="perguntas-description">É muito simples fazer a página virar:
+                        você cria seu perfil, publica as obras
+                        que já leu e estão paradas na estante,
+                        navega para descobrir novos títulos de
+                        outros leitores e combina tudo
+                        diretamente pelo nosso chat.</p>
+                </details>
+            </section>
+
+            <hr>
+
+            <section class="perguntas-area">
+                <details>
+                    <summary class="perguntas-title">● Teste pergunta 2?</summary>
+                    <p class="perguntas-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laborum natus, reprehenderit laudantium odio rerum delectus inventore praesentium facilis magnam sunt incidunt hic veritatis esse vitae dolor sint aliquam dolorum.</p>
+                </details>
+            </section>
+        </div>
+    </section>
+
 </body>
+
+<script>
+    function modalHandler() {
+        const modal = document.querySelector(".separador");
+        modal.classList.toggle("show");
+    }
+
+</script>
 
 </html>
