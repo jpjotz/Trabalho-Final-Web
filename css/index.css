@@ -336,6 +336,21 @@ hr:last-child {
     display: none;
 }
 
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ec9e55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer img {
+    max-width: 60%;
+}
+
 /* DESKTOP */
 
 @media (min-width: 1024px) {
@@ -527,14 +542,13 @@ hr:last-child {
     }
 
     .como-funciona {
-        margin: 0;
+        margin: 15px;
     }
 
     .comofunciona-header {
         max-width: 30%;
         margin: auto;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
+        border-radius: 15px;
     }
 
     .como-funciona-descricao {
