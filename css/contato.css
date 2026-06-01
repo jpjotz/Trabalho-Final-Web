@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Iosevka Charon";
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #ded1bf;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #3C2D20;
+    position: relative;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+/* LOGO */
+
+.logo-img {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+/* BOTÕES */
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    z-index: 2;
+}
+
+.login,
+.menu {
+    background: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login {
+    font-size: 20px;
+}
+
+.menu {
+    font-size: 50px;
+}
+
+.loginButton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.loginButton:hover .login,
+.loginButton:hover #icon-person,
+.menu:hover {
+    color: #d97e2f;
+}
+
+#icon-person {
+    font-size: 22px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+/* SEARCH */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px 25px;
+    margin-right: 10px;
+}
+
+#search-icon {
+    position: relative;
+    left: 35px;
+    color: #d97e2f;
+}
+
+#search {
+    width: 100%;
+    max-width: 700px;
+    padding: 15px 20px 15px 45px;
+    background-color: #895727;
+    border: 2px solid #d37d2c;
+    color: #f7ece3;
+    border-radius: 10px;
+}
+
+#search::placeholder {
+    color: #c8b099;
+}
+
+.separador {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C2D20;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+    max-height: 0;
+
+}
+
+.show {
+    display: block;
+    max-height: 200px;
+    border-top: 0.5px solid #633f21;
+}
+
+.navegation-buttons {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 5px;
+}
+
+.navegation-buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #c8b099;
+}
+
+.section-texto-contato {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.texto-contato {
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+    color: #3C2D20;
+}
+
+.titulo-canais {
+    background-color: #D27D2D;
+    color: #593E26;
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nossos-canais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #3C2D20;
+}
+
+.canais {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.nome-canais {
+    font-size: 20px;
+    text-align: center;
+}
+
+.contato-form {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    background-color: #D27D2D;
+    padding: 15px;
+    border: none;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #ded1bf;
+    font-size: 15px;
+}
+
+form textarea {
+    padding: 10px;
+    margin-left: 15px;
+}
+
+form {
+    text-align: center;
+}
+
+.btnSend {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #d97e2f;
+    color: #f7e1cd;
+    border-radius: 15px;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    align-self: center;
+    cursor: pointer;
+    width: 60%;
+}
+
+.btnSend:hover {
+    transition: box-shadow 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 10px;
+    background-color: #ec9e55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer img {
+    max-width: 60%;
+}
+
+@media (min-width: 1024px) {
+    header {
+        background-color: #ded1bf;
+        height: 130px;
+    }
+
+    .nav-header {
+        padding: 20px 60px;
+    }
+
+    .navegation-buttons {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: center;
+        align-content: center;
+        gap: 50px;
+    }
+
+    .navegation-buttons a {
+        text-decoration: none;
+        color: #3C2D20;
+        background-color: #d37d2c;
+        padding: 5px 15px 5px 15px;
+        border-radius: 90px;
+        font-size: 20px;
+        transition: color 0.2s ease;
+    }
+
+    .navegation-buttons a:hover {
+        color: white;
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    }
+
+    .logo {
+        width: 160px;
+        padding-top: 10px;
+    }
+
+    .nav-buttons {
+        gap: 40px;
+    }
+
+    .login {
+        font-size: 26px;
+        color: #3C2D20;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav-buttons {
+        padding-top: 5px;
+    }
+
+    #icon-person {
+        font-size: 28px;
+        color: #3C2D20;
+    }
+
+    .search-bar {
+        position: absolute;
+
+        top: 55%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #search {
+        max-width: 40%;
+        border-radius: 100px;
+        background-color: #d6975a;
+        font-size: 16px;
+        color: #46372b;
+    }
+
+    #search::placeholder {
+        color: #46372b;
+    }
+
+    .separador {
+        display: block;
+        margin-bottom: 20px;
+        max-height: 100%;
+        position: static;
+        background-color: #3C2D20;
+        animation: animacaoNav 1.4s ease-in-out;
+    }
+
+    .nav-header {
+        padding: 20px 60px;
+    }
+
+    .navegation-buttons {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: center;
+        align-content: center;
+        gap: 50px;
+    }
+
+    .navegation-buttons a {
+        text-decoration: none;
+        color: #3C2D20;
+        background-color: #d37d2c;
+        padding: 5px 15px 5px 15px;
+        border-radius: 90px;
+        font-size: 20px;
+        transition: color 0.2s ease;
+    }
+
+    .navegation-buttons a:hover {
+        color: white;
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    }
+
+    .titulo-canais {
+        width: 15%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    form label {
+        width: 180px;
+        flex-shrink: 0;
+    }
+
+    .contato-form {
+        width: 100%;
+        margin: auto;
+    }
+
+    form p {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        margin: 10px auto;
+    }
+
+    form input {
+        flex: 1;
+    }
+
+    form textarea {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btnSend {
+        width: 20%;
+        margin-top: 30px;
+    }
+
+    @keyframes animacaoNav {
+        0% {
+            max-height: 0px;
+        }
+
+        100% {
+            max-height: 300px;
+        }
+    }
+}
