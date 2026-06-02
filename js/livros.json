@@ -63,6 +63,414 @@
         "titulo": "Eu, Robô",
         "imagem": "../image/livros/eu_robo.png",
         "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "A Guerra dos Tronos",
+        "imagem": "../image/livros/a_guerra_dos_tronos.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "O Nome do Vento",
+        "imagem": "../image/livros/o_nome_do_vento.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "O Ladrão de Raios",
+        "imagem": "../image/livros/percy_jackson.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "Jogos Vorazes",
+        "imagem": "../image/livros/jogos_vorazes.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "A Batalha do Apocalipse",
+        "imagem": "../image/livros/apocalipse.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "A Maldição do Tigre",
+        "imagem": "../image/livros/a_maldicao_do_tigre.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "O Leão, a Feiticeira e o Guarda-Roupa",
+        "imagem": "../image/livros/o_leao_a_feiticeira.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "O Senhor dos Anéis",
+        "imagem": "../image/livros/o_senhor_dos_aneis.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "A Bússola de Ouro",
+        "imagem": "../image/livros/a_bussola_de_ouro.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "Por um Toque de Ouro",
+        "imagem": "../image/livros/por_um_toque_de_ouro.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "O Hobbit",
+        "imagem": "../image/livros/o_hobbit.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "Alice no País das Maravilhas",
+        "imagem": "../image/livros/alice_maravilhas.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "Battle Royale",
+        "imagem": "../image/livros/eu_robo.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "Sherlock Holmes",
+        "imagem": "../image/livros/sherlock_holmes.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "Ecos da Floresta",
+        "imagem": "../image/livros/ecos_da_floresta.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "Um de Nós Está Mentindo",
+        "imagem": "../image/livros/um_de_nos_esta_mentindo.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "Noite na Taverna",
+        "imagem": "../image/livros/noite_na_taverna.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "Quem Sou Eu?",
+        "imagem": "../image/livros/quem_sou_eu.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "A Paciente SIlenciosa",
+        "imagem": "../image/livros/a_paciente_silenciosa.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "A Lista de Convidados",
+        "imagem": "../image/livros/a_lista_de_convidados.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "O Homem de Giz",
+        "imagem": "../image/livros/o_homem_de_giz.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "E Não Sobrou Nenhum",
+        "imagem": "../image/livros/e_nao_sobrou_nenhum.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "O Assassinato de Roger Ackroyd",
+        "imagem": "../image/livros/o_assassinato.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "Assassinatos na Academia Brasileira de Letras",
+        "imagem": "../image/livros/assassinatos_academia.png",
+        "categoria": "suspense"
+    },
+
+    {
+        "titulo": "Entendendo Algoritmos",
+        "imagem": "../image/livros/algoritmos.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "Lições de Física",
+        "imagem": "../image/livros/licoes_de_fisica.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "Data Science do Zero",
+        "imagem": "../image/livros/data_science.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "Elementos de Álgebra Linear",
+        "imagem": "../image/livros/algebra_linear.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "O Gene",
+        "imagem": "../image/livros/o_gene.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "Princípios de Neurociências",
+        "imagem": "../image/livros/neurociencias.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "Rápido e Devagar",
+        "imagem": "../image/livros/rapido_e_devagar.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "Armas, Germes e Aço",
+        "imagem": "../image/livros/armas_germes_e_aco.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "Cleopatra e Frankenstein",
+        "imagem": "../image/livros/cleopatra.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Vermelho, Branco e Sangue Azul",
+        "imagem": "../image/livros/vermelho_branco.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Luzes do Norte",
+        "imagem": "../image/livros/luzes_do_norte.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Mordida",
+        "imagem": "../image/livros/mordida.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Orgulho e Preconceito",
+        "imagem": "../image/livros/orgulho_e_preconceito.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "A Hipótese do Amor",
+        "imagem": "../image/livros/a_hipotese_do_amor.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Iracema",
+        "imagem": "../image/livros/iracema.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Eleanor & Park",
+        "imagem": "../image/livros/eleanor_e_park.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Como Eu Era Antes de Você",
+        "imagem": "../image/livros/como_eu_era_antes_de_voce.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "A Amiga Genial",
+        "imagem": "../image/livros/a_amiga-genial.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Fazendo Meu Filme",
+        "imagem": "../image/livros/fazendo_meu_filme.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "De Volta aos Quinze",
+        "imagem": "../image/livros/de_volta_aos_quinze.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Contos de Terror",
+        "imagem": "../image/livros/contos_de_terror.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "O Paciente",
+        "imagem": "../image/livros/o_paciente.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "O Vilarejo",
+        "imagem": "../image/livros/o_vilarejo.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "It: A Coisa",
+        "imagem": "../image/livros/it.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Jantar Secreto",
+        "imagem": "../image/livros/jantar_secreto.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Lady Killers",
+        "imagem": "../image/livros/lady_killers.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Mestre Makabro",
+        "imagem": "../image/livros/mestre_macabro.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Assombrações",
+        "imagem": "../image/livros/assombracoes.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Os Fantasmas Entre Nós",
+        "imagem": "../image/livros/os_fantasmas_entre_nos.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Contos Clássicos de Terror",
+        "imagem": "../image/livros/contos_classicos_de_terror.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Os Canibais da Rua do Arvoredo",
+        "imagem": "../image/livros/os_canibais.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Dois Mortos e a Morte",
+        "imagem": "../image/livros/dois_mortos_e_a_morte.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "A Cabana",
+        "imagem": "../image/livros/a_cabana.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "Escada do Paraíso",
+        "imagem": "../image/livros/escada_do_paraiso.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "Subida do Monte Carmelo",
+        "imagem": "../image/livros/subida_do_monte_carmelo.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "O Livro dos Espíritos",
+        "imagem": "../image/livros/o_livro_dos_espiritos.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "Mitologia dos Orixás",
+        "imagem": "../image/livros/mitologia.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "As Religiões do Mundo",
+        "imagem": "../image/livros/as_religioes_do_mundo.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "Os Quatro Compromissos",
+        "imagem": "../image/livros/os_quatro_compromissos.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "Bruxaria Natural",
+        "imagem": "../image/livros/bruxaria_natural.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "História das Crenças e das Ideias Religiosas",
+        "imagem": "../image/livros/historia_das_crencas.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "O Caminho Budista",
+        "imagem": "../image/livros/o_caminho_budista.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "A Noite Escura da Alma",
+        "imagem": "../image/livros/a_noite_escura_da_alma.png",
+        "categoria": "religiosos"
+    },
+
+    {
+        "titulo": "Orixás",
+        "imagem": "../image/livros/orixas.png",
+        "categoria": "religiosos"
     }
 
 ]
