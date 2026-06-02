@@ -19,3 +19,19 @@ const livrosDestaque = fetch('./js/livros-destaques.json')
             container.appendChild(figure)
         })
     });
+
+const searchInput = document.getElementById('search');
+
+function pesquisar() {
+    const termo = searchInput.value.trim();
+
+    if (termo) {
+        window.location.href = `pages/livros.html?busca=${encodeURIComponent(termo)}`;
+    }
+}
+
+searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        pesquisar();
+    }
+});

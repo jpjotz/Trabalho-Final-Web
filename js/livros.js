@@ -5,6 +5,7 @@ function modalHandler() {
 
 const params = new URLSearchParams(window.location.search);
 const categoria = params.get('categoria');
+const busca = params.get('busca');
 
 let todosLivros = [];
 
@@ -25,8 +26,6 @@ function renderizarLivros(livros) {
                 <div class="card-infos">
                     <span class="status-tag disponivel">Disponível</span>
 
-                    <br>
-
                     <button class="btnTroca">Trocar Livro</button>
                 </div>
             </div>
@@ -36,18 +35,35 @@ function renderizarLivros(livros) {
     `).join('');
 }
 
+function pesquisar() {
+    const termo = searchInput.value.trim();
+
+    if (termo) {
+        window.location.href = `livros.html?busca=${encodeURIComponent(termo)}`;
+    }
+}
+
 fetch('../js/livros.json')
     .then(res => res.json())
     .then(livros => {
         todosLivros = livros;
 
-        if (categoria) {
-            const filtrados = livros.filter(livro => livro.categoria.toLowerCase() === categoria.toLowerCase());
+        if (busca) {
+            const resultado = livros.filter(livro =>
+                livro.titulo.toLowerCase().includes(busca.toLowerCase()) ||
+                livro.categoria.toLowerCase().includes(busca.toLowerCase())
+            );
+
+            renderizarLivros(resultado);
+        } else if (categoria) {
+            const filtrados = livros.filter(livro =>
+                livro.categoria.toLowerCase() === categoria.toLowerCase()
+            );
+
             renderizarLivros(filtrados);
         } else {
-            renderizarLivros(livros)
+            renderizarLivros(livros);
         }
-
     });
 
 document.addEventListener('click', (e) => {
@@ -60,12 +76,6 @@ const searchInput = document.getElementById('search');
 
 searchInput.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
-        const termo = searchInput.value.toLowerCase();
-
-        const resultado = todosLivros.filter(livro => {
-            return livro.titulo.toLowerCase().includes(termo) || livro.categoria.toLowerCase().includes(termo);
-        });
-
-        renderizarLivros(resultado);
+        pesquisar();
     }
-})
+});
