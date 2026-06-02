@@ -78,7 +78,7 @@
     },
 
     {
-        "titulo": "O Ladrão de Raios",
+        "titulo": "Percy Jackson: O Ladrão de Raios",
         "imagem": "../image/livros/percy_jackson.png",
         "categoria": "fantasia"
     },
@@ -313,7 +313,7 @@
 
     {
         "titulo": "A Amiga Genial",
-        "imagem": "../image/livros/a_amiga-genial.png",
+        "imagem": "../image/livros/a_amiga_genial.png",
         "categoria": "romance"
     },
 
