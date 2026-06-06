@@ -1,0 +1,55 @@
+[
+    {
+        "titulo": "Percy Jackson e o Ladrão de Raios",
+        "imagem": "image/index/percy_jackson.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "Jogos Vorazes",
+        "imagem": "image/index/jogos_vorazes_01.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "Apocalipse",
+        "imagem": "image/index/apocalipse_livro.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "Lady Killers",
+        "imagem": "image/index/lady_killers.png",
+        "categoria": "fantasia"
+    },
+
+    {
+        "titulo": "Contos de Terror",
+        "imagem": "image/index/contos_de_terror.png",
+        "categoria": "terror"
+    },
+
+    {
+        "titulo": "Vermelho, Branco e Sangue Azul",
+        "imagem": "image/index/vermelho_sangue_azul.png",
+        "categoria": "romance"
+    },
+
+    {
+        "titulo": "Cleopatra e Frankenstein",
+        "imagem": "image/index/cleopatra.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "Entendendo Algoritmos",
+        "imagem": "image/index/entendendo_algoritmos.png",
+        "categoria": "academico"
+    },
+
+    {
+        "titulo": "A Cabana",
+        "imagem": "image/index/a_cabana.png",
+        "categoria": "religioso"
+    }
+]

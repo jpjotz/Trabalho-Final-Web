@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../image//index/logosite.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../js/login.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>virapágina</h1>
+            <p>
+                <strong>Entre</strong> ou <strong><u>crie uma conta</u></strong>
+            </p>
+        </header>
+        <section class="formulario">
+            <form action="" method="post">
+                <label for="email"></label>
+                <input type="text" placeholder="E-mail">
+                <label for="senha"></label>
+                <div class="senha-area">
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                    <i class="fa-solid fa-eye eye-icon" id="eye-icon"></i>
+                </div>
+                <button type="button" class="loginBtn">Entrar</button>
+                <p class="esqueceu-senha">Esqueceu a senha?</p>
+            </form>
+        </section>
+        <hr>
+        <section class="outros-metodos">
+            <p class="outros-metodos-title">ou continue com</p>
+            <div class="tipo-login">
+                <button class="authBtn">
+                    <img src="../image//login//google_logo.png" class="authLogo" alt="google logo">
+                    Continue com o Google
+                </button>
+            </div>
+            <div class="tipo-login">
+                <button class="authBtn">
+                    <img src="../image//login/facebook_logo.png" class="authLogo" alt="facebook logo">
+                    Continue com o Facebook
+                </button>
+            </div>
+        </section>
+        <footer>
+            <p>
+                Ao se cadastrar, você cria uma conta e concorda com nossos Termos e Política de Privacidade.
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>

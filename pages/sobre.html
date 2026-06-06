@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de livros</title>
+    <link rel="shortcut icon" href="../image/index/logosite.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/sobre.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-header">
+            <figure class="logo-img">
+                <a href="../index.html">
+                    <img class='logo' src="../image/index/logosite.png" alt="Logo Site">
+                </a>
+            </figure>
+
+            <section class="nav-buttons">
+                <div class="loginButton" onclick="window.location.href='../pages/login.html' ">
+                    <i id="icon-person" class="fa-regular fa-user"></i>
+                    <button class="login">Entrar</button>
+                </div>
+                <button class="menu" onclick="modalHandler()">☰</button>
+            </section>
+
+        </nav>
+
+        <div class="search-bar">
+            <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+            <input id="search" type="text" placeholder="Digite livro ou autor a ser pesquisado">
+        </div>
+
+    </header>
+
+    <div class="separador">
+        <nav class="navegation-buttons">
+            <a href="../index.html">Home</a>
+            <a href="contato.html">Contato</a>
+            <a href="calculo-de-livros.html">Cálculo de Livros</a>
+            <a href="livros.html">Livros</a>
+            <a href="cronograma.html">Cronograma</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </div>
+
+    <section class="infos">
+        <p class="texto-info">Quantas vezes você já quis ler
+            algo novo, mas o preço não
+            ajudou? Ou quantas
+            vezes olhou
+            para sua estante e sentiu que
+            aqueles livros mereciam ser
+            lidos por mais
+            gente?</p>
+
+        <figure>
+            <img src="../image/sobre/mulher-livro.png" alt="Mulher com livro na mão">
+        </figure>
+    </section>
+
+    <p class="texto-sobre">No Vira Página, a gente entende
+        bem isso e, por isso, acreditamos que livro parado não conta
+        história. <br> <br> Nosso projeto nasceu de um
+        desejo simples, mas poderoso:
+        fazer a literatura circular e
+        garantir que o acesso ao
+        conhecimento seja, de fato,
+        gratuito e colaborativo. Aqui,
+        não
+        existe transação financeira,
+        apenas a troca de conhecimento
+        e a alegria de saber que
+        aquela história que te marcou
+        está prestes a inspirar alguém
+        diferente. Vamos espalhar
+        histórias juntos?
+    </p>
+
+    <section class="equipe">
+        <span class="equipe-badge">CONHEÇA NOSSA EQUIPE!</span>
+
+        <div class="equipe-cards">
+            <div class="aluno-card">
+                <figure class="bg-foto-aluno">
+                    <img class="foto-aluno" src="../image/sobre/joao.jpeg" alt="">
+                </figure>
+                <p>João Pedro</p>
+                <span>Desenvolvedor Front-End</span>
+            </div>
+            <div class="aluno-card">
+                <figure>
+                    <img class="foto-aluno" src="../image/sobre/sofia.jpeg" alt="">
+                </figure>
+                <p>Sofia Dias</p>
+                <span>Redatora</span>
+            </div>
+            <div class="aluno-card">
+                <figure>
+                    <img class="foto-aluno" src="../image/sobre/raylla.jpeg" alt="">
+                </figure>
+                <p>Raylla Martins</p>
+                <span>Tech Lead <br> Designer</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <figure class="logo-footer">
+            <img src="../image/index/logosite.png" alt="">
+            <p>Copyright &copy 2026 - Todos os direitos reservados.</p>
+        </figure>
+    </footer>
+</body>
+
+<script src="../js/sobre.js"></script>
+
+</html>

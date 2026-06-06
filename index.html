@@ -1,11 +1,260 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vira-Página</title>
+    <link rel="shortcut icon" href="image/index/logosite.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="nav-header">
+            <figure class="logo-img">
+                <a href="index.html">
+                    <img class='logo' src="image/index//logosite.png" alt="Logo Site">
+                </a>
+            </figure>
+
+            <section class="nav-buttons">
+                <div class="loginButton" onclick="window.location.href='./pages/login.html' ">
+                    <i id="icon-person" class="fa-regular fa-user"></i>
+                    <button class="login">Entrar</button>
+                </div>
+                <button class="menu" onclick="modalHandler()">☰</button>
+            </section>
+
+        </nav>
+
+        <div class="search-bar">
+            <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+            <input id="search" type="text" placeholder="Digite livro ou autor a ser pesquisado">
+        </div>
+
+    </header>
+
+    <div class="separador">
+        <nav class="navegation-buttons">
+            <a href="index.html">Home</a>
+            <a href="pages/contato.html">Contato</a>
+            <a href="pages/calculo-de-livros.html">Cálculo de Livros</a>
+            <a href="pages/livros.html">Livros</a>
+            <a href="pages/cronograma.html">Cronograma</a>
+            <a href="pages/sobre.html">Sobre</a>
+        </nav>
+    </div>
+
+    <section class="info">
+        <div class="texto-info">
+            <p>
+                Conecte-se com leitores e leitoras. Compartilhe histórias e versos.
+            </p>
+
+            <p>
+                Troque páginas! O que não pode é deixar o livro guardado sem contar sua história.
+            </p>
+
+            <div class="landing-buttons">
+                <button class="trocarBtn" onclick="window.location.href = './pages/livros.html' ">Comece a trocar seus livros!</button>
+
+            <button onclick="window.location.href = './pages/contato.html' " class="duvidaBtn">Com dúvidas? Entre em contato!</button>
+            </div>
+        </div>
+
+        <figure>
+            <img class="person-image" src="image/index/man-character-reading-book-free-png.webp"
+                alt="Pessoa lendo livro">
+        </figure>
+    </section>
+
+    <section class="conteudo-home">
+        <section class="livros-destaque">
+            <p class="title-destaque">Livros em Destaque</p>
+            <div id="livros-destaques" class="capa-livros"></div>
+
+        </section>
+
+        <section class="categoria">
+            <h2 class="generos-title">Gêneros Literários</h2>
+            <section class="generos-grid">
+                <div class="genero-opcao">
+                    <a href="pages/livros.html?categoria=academicos">
+                        <figure>
+                            <img src="image/index/Logo_livros_academicos.png" alt="Gênero Acadêmico">
+                        </figure>
+                        <p class="genero-nome">Acadêmicos</p>
+                    </a>
+                </div>
+                <div class="genero-opcao">
+                    <a href="pages/livros.html?categoria=terror">
+                        <figure>
+                            <img src="image/index/logo_livros_terror.png" alt="Gênero Terror">
+                        </figure>
+                        <p class="genero-nome">Terror</p>
+                    </a>
+                </div>
+                <div class="genero-opcao">
+                    <a href="pages/livros.html?categoria=fantasia">
+                        <figure>
+                            <img src="image/index/logo_livros_fantasia.png" alt="Gênero Fantasia">
+                        </figure>
+                        <p class="genero-nome">Fantasia</p>
+                    </a>
+                </div>
+                <div class="genero-opcao">
+                    <a href="pages/livros.html?categoria=ficcao">
+                        <figure>
+                            <img src="image/index/logos_livros_ficcao.png" alt="Gênero Ficção Científica">
+                        </figure>
+                        <p class="genero-nome">Ficção Científica</p>
+                    </a>
+                </div>
+                <div class="genero-opcao">
+                    <a href="pages/livros.html?categoria=romance">
+                        <figure>
+                            <img src="image/index/logo_livros_romance.png" alt="Gênero Romance">
+                        </figure>
+                        <p class="genero-nome">Romance</p>
+                    </a>
+                </div>
+                <div class="genero-opcao">
+                    <a href="pages/livros.html?categoria=suspense">
+                        <figure>
+                            <img src="image/index/logo_livros_suspense.png" alt="Gênero Ficção Científica">
+                        </figure>
+                        <p class="genero-nome">Suspense</p>
+                    </a>
+                </div>
+                <div class="genero-opcao">
+                    <a href="pages/livros.html?categoria=religiosos">
+                        <figure>
+                            <img src="image/index/logo_livros_religiosos.png" alt="Gênero Religioso">
+                        </figure>
+                        <p class="genero-nome">Religiosos</p>
+                    </a>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <section class="como-funciona">
+        <div class="comofunciona-header">
+            <h3 class="como-funciona-titulo">Como Funciona?</h3>
+        </div>
+
+        <div class="como-funciona-descricao">
+            <p class="como-funciona-texto">Pronto para começar um novo capítulo? É assim que a gente faz a página virar
+                por aqui:</p>
+        </div>
+
+        <div class="como-funciona-content">
+            <section class="content-area">
+                <p class="content-title">01. Cadastre-se</p>
+                <p class="content-description">Crie sua conta gratuitamente preenchendo o formulário que está no menu. É
+                    rápido, simples e o
+                    primeiro passo para fazer parte da nossa rede de leitores e leitoras.</p>
+            </section>
+
+            <hr>
+
+            <section class="content-area">
+                <p class="content-title">02. Adicione livros</p>
+                <p class="content-description">Abra sua estante para o mundo!
+                    Toque no ícone de adicionar, suba uma foto caprichada
+                    e conte para a gente o título, o autor e uma breve descrição
+                    do que aquela obra tem de especial. </p>
+            </section>
+
+            <hr>
+
+            <section class="content-area">
+                <p class="content-title">03. Encontre novas histórias</p>
+                <p class="content-description">Navegue pela nossa galeria de livros ou use a busca para encontrar aquela
+                    obra que
+                    desperte seu interesse.
+                    São milhares de versos e páginas esperando por você.</p>
+            </section>
+
+            <hr>
+
+            <section class="content-area">
+                <p class="content-title">04. Combine a troca</p>
+                <p class="content-description">Achou o que queria? É só apertar no botão
+                    "Trocar Livro". Você será levado direto para o
+                    nosso chat para conversar com o outro leitor
+                    e combinar como a história vai chegar até você</p>
+            </section>
+
+            <hr>
+
+        </div>
+    </section>
+
+    <section class="perguntas-frequentes">
+        <div class="perguntas-frequentes-header">
+            <h3 class="perguntas-frequentes-title">Perguntas Frequentes</h3>
+        </div>
+
+        <div class="perguntas-content">
+            <section class="perguntas-area">
+                <details>
+                    <summary class="perguntas-title">● Como funciona a troca de livros por aqui?</summary>
+                    <p class="perguntas-description">É muito simples fazer a página virar:
+                        você cria seu perfil, publica as obras
+                        que já leu e estão paradas na estante,
+                        navega para descobrir novos títulos de
+                        outros leitores e combina tudo
+                        diretamente pelo nosso chat.</p>
+                </details>
+            </section>
+
+            <hr>
+
+            <section class="perguntas-area">
+                <details>
+                    <summary class="perguntas-title">● A troca é gratuita de verdade?</summary>
+                    <p class="perguntas-description">Com certeza! O Vira Página é uma plataforma 100% colaborativa. Não
+                        cobramos mensalidades, taxas ou qualquer comissão. Nosso objetivo é que você renove sua leitura
+                        sem gastar nada, apenas compartilhando conhecimento.</p>
+                </details>
+            </section>
+
+            <hr>
+
+            <section class="perguntas-area">
+                <details>
+                    <summary class="perguntas-title">● Onde encontro livros acessíveis para trocar?</summary>
+                    <p class="perguntas-description">No nosso site, o valor está na história e
+                        não no preço. Como trabalhamos com um
+                        sistema
+                        de trocas, todos os exemplares
+                        disponíveis saem a custo zero para você,
+                        tornando a leitura
+                        acessível para todos.</p>
+                </details>
+            </section>
+        </div>
+    </section>
+
+    <footer>
+        <figure class="logo-footer">
+            <img src="image/index/logosite.png" alt="">
+            <p>Copyright &copy 2026 - Todos os direitos reservados.</p>
+        </figure>
+    </footer>
+
 </body>
+
+<script src="js/main.js"></script>
+
 </html>
