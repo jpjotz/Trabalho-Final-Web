@@ -1,11 +1,11 @@
 Nome do projeto: Vira-Página
 
-Link da publicação: (inserir após a hospedagem do site)
+Link da publicação: https://virapagina.netlify.app/
 
 Participantes:
 
-Raylla Silva— Tech Lead, Designer Gráfico e  Desenvolvedora Front-End 2
-João Pedro — Desenvolvedor Front-End 1
+Raylla Silva— Tech Lead, Designer Gráfico
+João Pedro — Desenvolvedor Front-End
 Sofia Dias - Redator de Conteúdo
 
 Objetivo principal do projeto:
