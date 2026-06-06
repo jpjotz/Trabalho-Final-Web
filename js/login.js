@@ -1,5 +1,6 @@
 const iconeSenha = document.getElementById('eye-icon');
 const inputSenha = document.getElementById('senha');
+const loginBtn = document.querySelector('.loginBtn');
 
 inputSenha.addEventListener('input', () => {
     if (inputSenha.value.length > 0) {
@@ -23,4 +24,14 @@ iconeSenha.addEventListener('click', () => {
         iconeSenha.classList.remove('fa-eye-slash');
         iconeSenha.classList.add('fa-eye');
     }
+});
+
+loginBtn.addEventListener('click', () => {
+    if(inputSenha.value == '') {
+        alert('Senha deve ser informada!');
+        return;
+    }
+
+    alert('Usuário logado com sucesso!')
+    window.location.href='../index.html';
 });
