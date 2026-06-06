@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="../image/index/logosite.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="nav-header">
+            <figure class="logo-img">
+                <a href="../index.html">
+                    <img class='logo' src="../image/index/logosite.png" alt="Logo Site">
+                </a>
+            </figure>
+
+            <section class="nav-buttons">
+                <div class="loginButton" onclick="window.location.href='../pages/login.html' ">
+                    <i id="icon-person" class="fa-regular fa-user"></i>
+                    <button class="login">Entrar</button>
+                </div>
+                <button class="menu" onclick="modalHandler()">☰</button>
+            </section>
+
+        </nav>
+
+        <div class="search-bar">
+            <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+            <input id="search" type="text" placeholder="Digite livro ou autor a ser pesquisado">
+        </div>
+
+    </header>
+
+    <div class="separador">
+        <nav class="navegation-buttons">
+            <a href="../index.html">Home</a>
+            <a href="contato.html">Contato</a>
+            <a href="../pages/calculo-de-livros.html">Cálculo de Livros</a>
+            <a href="#como-funciona">Livros</a>
+            <a href="#">Trocas</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </div>
+
+    <section class="section-texto-contato">
+        <p class="texto-contato">O Troca Páginas é feito por
+            pessoas que amam ler, assim
+            como você.
+            Se você precisa de
+            ajuda com
+            o cadastro, com as trocas ou
+            quer apenas bater um papo
+            sobre o projeto,
+            escolha um dos
+            nossos canais ou preencha o
+            formulário abaixo.
+            Vamos adorar te
+            responder!</p>
+    </section>
+
+    <section class="nossos-canais">
+        <h6 class="titulo-canais">Nossos canais</h6>
+
+        <div class="canais">
+            <p class="nome-canais">• Instagram: @ViraPaginas <br>
+                (Siga para ver as novidades!)</p>
+
+            <p class="nome-canais">• E-mail: contato@virapagina.com.br</p>
+
+            <p class="nome-canais">Mande sua mensagem <br> Tire suas dúvidas ou faça sua pergunta aqui:</p>
+        </div>
+    </section>
+
+    <section class="contato-form">
+        <form action="#">
+            <p>
+                <label for="">• Nome: </label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+            </p>
+
+            <br>
+
+            <p>
+                <label for="">• E-mail:</label>
+                <input id="email" type="email" placeholder="Digite seu melhor e-mail">
+            </p>
+
+            <br>
+
+            <p>
+                <label for="">• Como podemos te ajudar?</label> <br>
+                <textarea cols="40" rows="5" name="mensagem" placeholder="Insira sua mensagem aqui:"
+                    id="mensagem"></textarea>
+            </p>
+
+            <button id="btnSend" class="btnSend" type="button">Enviar</button>
+        </form>
+    </section>
+
+    <section class="mapa-troca">
+        <div class="texto-mapa">
+            <h3>Local de troca de livros em Belo Horizonte, MG</h3>
+            <p>📍 R. Cobre, 200 - Cruzeiro, Belo Horizonte - MG, 30310-150
+            </p>
+        </div>
+
+        <figure class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15002.160002704752!2d-43.93570934746702!3d-19.943780203161445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699c00e2b4f6d%3A0x151e458ff7e7fbab!2sUniversidade%20FUMEC!5e0!3m2!1spt-BR!2sbr!4v1780421011700!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </figure>
+    </section>
+
+    <footer>
+        <figure class="logo-footer">
+            <img src="../image/index/logosite.png" alt="">
+            <p>Copyright &copy 2026 - Todos os direitos reservados.</p>
+        </figure>
+    </footer>
+
+</body>
+
+<script src="../js/contato.js"></script>
+
+</html>

@@ -1,0 +1,68 @@
+[
+    {
+        "titulo": "Uma Dobra no Tempo",
+        "imagem": "../image/livros/dobra_no_tempo.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "A Máquina do Tempo",
+        "imagem": "../image/livros/a_maquina_do_tempo.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "Padrões de Contato",
+        "imagem": "../image/livros/padroes_de_contato.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "Deixe as Estrelas Falarem",
+        "imagem": "../image/livros/deixe_as_estrelas_falarem.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "Guerra do Velho",
+        "imagem": "../image/livros/guerra_do_velho.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "20 Mil Léguas Submarinas",
+        "imagem": "../image/livros/20_mil_leguas_submarinas.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "Devoradores de Estrelas",
+        "imagem": "../image/livros/devoradores_de_estrelas.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "O Guia Definitivo do Mochileiro das Galáxias",
+        "imagem": "../image/livros/mochileiro_galaxia.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "Recursão",
+        "imagem": "../image/livros/recursao.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "Matéria Escura",
+        "imagem": "../image/livros/materia_escura.png",
+        "categoria": "ficcao"
+    },
+
+    {
+        "titulo": "Eu, Robô",
+        "imagem": "../image/livros/eu_robo.png",
+        "categoria": "ficcao"
+    }
+
+]
