@@ -16,12 +16,19 @@
         "imagem": "../image/livros/padroes_de_contato.png",
         "categoria": "ficcao"
     },
+    
+    {
+        "titulo": "O Caçador Cibernético da Rua 13",
+        "imagem": "../image/livros/cacador_cibernetico.png",
+        "categoria": "ficcao"
+    },
 
     {
         "titulo": "Deixe as Estrelas Falarem",
         "imagem": "../image/livros/deixe_as_estrelas_falarem.png",
         "categoria": "ficcao"
     },
+
 
     {
         "titulo": "Guerra do Velho",
@@ -96,7 +103,7 @@
     },
 
     {
-        "titulo": "A Maldição do Tigre",
+        "titulo": "A Maldição do Tigre ( BOX )",
         "imagem": "../image/livros/a_maldicao_do_tigre.png",
         "categoria": "fantasia"
     },
@@ -139,7 +146,7 @@
 
     {
         "titulo": "Battle Royale",
-        "imagem": "../image/livros/eu_robo.png",
+        "imagem": "../image/livros/battle_royale.png",
         "categoria": "suspense"
     },
 
@@ -228,6 +235,12 @@
     },
 
     {
+        "titulo": "O Tecido do Cosmo",
+        "imagem": "../image/livros/o_tecido_do_cosmo.png",
+        "categoria": "academicos"
+    },
+
+    {
         "titulo": "Elementos de Álgebra Linear",
         "imagem": "../image/livros/algebra_linear.png",
         "categoria": "academicos"
@@ -236,6 +249,18 @@
     {
         "titulo": "O Gene",
         "imagem": "../image/livros/o_gene.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "O Livro da Matemática",
+        "imagem": "../image/livros/o_livro_da_matematica.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "O Gene Egoísta",
+        "imagem": "../image/livros/o_gene_egoista.png",
         "categoria": "academicos"
     },
 
@@ -254,6 +279,12 @@
     {
         "titulo": "Armas, Germes e Aço",
         "imagem": "../image/livros/armas_germes_e_aco.png",
+        "categoria": "academicos"
+    },
+
+    {
+        "titulo": "Uma Breve História do Tempo",
+        "imagem": "../image/livros/uma_breve_historia_do_tempo.png",
         "categoria": "academicos"
     },
 
