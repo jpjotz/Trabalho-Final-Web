@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de livros</title>
+    <title>Livros</title>
     <link rel="shortcut icon" href="../image/index/logosite.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/calculadora.css">
+    <link rel="stylesheet" href="../css/livros.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,6 +16,7 @@
         href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="nav-header">
@@ -44,7 +46,7 @@
     <div class="separador">
         <nav class="navegation-buttons">
             <a href="../index.html">Home</a>
-            <a href="../pages/contato.html">Contato</a>
+            <a href="contato.html">Contato</a>
             <a href="calculo-de-livros.html">Cálculo de Livros</a>
             <a href="livros.html">Livros</a>
             <a href="#">Trocas</a>
@@ -52,32 +54,14 @@
         </nav>
     </div>
 
-    <section class="card">
-        <section class="card-content">
-            <h2 class="card-title">Calculadora de Livros Lidos Anualmente</h2>
+    <section class="livros-content">
+        <h2 class="livros-title">Livros disponíveis para troca</h2>
 
-            <form action="">
-                <label for="livrosLidos">Livros lidos:</label>
-                <input type="number" placeholder="Insira a quantidade" id="livrosLidos" class="form-input">
-
-                <label for="leituraDesejada">Quantidade desejada de leitura:</label>
-                <input type="number" placeholder="Insira a quantidade" id="livrosDesejados" class="form-input">
-
-                <button type="button" id="btnCalcular" class="btnCalcular">Calcular</button>
-            </form>
-
-            <p id="texto-resultado"></p>
-        </section>
+        <div id="livros-container" class="grid-livros"></div>
     </section>
-
-    <footer>
-        <figure class="logo-footer">
-            <img src="../image/index/logosite.png" alt="">
-            <p>Copyright &copy 2026 - Todos os direitos reservados.</p>
-        </figure>
-    </footer>
 
 </body>
 
-<script src="../js/calculo-livros.js"></script>
+<script src="../js/livros.js"></script>
+
 </html>
