@@ -337,7 +337,7 @@ hr:last-child {
 }
 
 footer {
-    margin-top: 10px;
+    margin-top: 50px;
     padding: 10px;
     background-color: #ec9e55;
     display: flex;
@@ -591,6 +591,39 @@ footer img {
 
     hr:last-child {
         display: block;
+    }
+
+    .landing-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+    .trocarBtn {
+        background-color: #3C2D20;
+        color: #d97e2f;
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .duvidaBtn {
+        background-color: #d37d2c;
+        color: #46372b;
+        border: none;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .duvidaBtn:hover, .trocarBtn:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform: scale(1.1);
+        transition: transform 0.2s ease-in;
     }
 
     @keyframes animacaoNav {
