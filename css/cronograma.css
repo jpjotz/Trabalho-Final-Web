@@ -147,89 +147,47 @@ nav {
     color: #c8b099;
 }
 
-.livros-content {
+.texto-cronograma {
+    margin-top: 5px;
     padding: 10px;
-    text-align: center;
-    color: #633f21;
     font-size: 20px;
 }
 
-.livros-title {
-    margin-bottom: 10px;
-}
-
-.livro-card {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    background-color: #d27d2d54;
-    position: relative;
-    width: 70%;
-    border-radius: 15px;
-    align-items: flex-start;
-}
-
-.livro-titulo {
-    padding: 10px;
-    text-align: left;
-}
-
-.livro-capa {
-    width: 90px;
-    height: 135px;
-    flex-shrink: 0;
-}
-
-.livro-capa img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.icone-bookmark {
-    position: absolute;
-    top: 0px;
-    right: 5%;
-    color: #d37d2c;
-    font-size: 24px;
-}
-
-.status-tag {
-    background-color: #d37d2c;
-    color: #46372b;
-    padding: 5px;
-    border-radius: 20px;
-    font-size: 16px;
-}
-
-.btnTroca {
-    background-color: #3C2D20;
-    color: #c8b099;
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-    transition: box-shadow 0.2s ease-in-out;
-    font-size: 18px;
-}
-
-.btnTroca:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.livro-info {
+.tabelas {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
+    align-items: center;
+    margin-top: 10px;
 }
 
-.grid-livros {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
-    justify-items: center;
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 2px solid #d37d2c;
+    padding: 10px;
+    text-align: center;
+}
+
+.info-final {
+    font-size: 20px;
+    text-align: start;
+    padding: 10px;
+}
+
+span {
+    display: block;
+    color: #d37d2c;
+    background-color: #46372b;
+    text-align: center;
+    align-self: center;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto 100px;
 }
 
 footer {
@@ -370,39 +328,9 @@ footer img {
         box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
     }
 
-    .grid-livros {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 25px;
-        max-width: 1400px;
-        margin: 0 auto;
-    }
-
-    .livro-card {
-        width: 100%;
-    }
-
-    .livro-capa {
-        width: 120px;
-        height: 180px;
-    }
-
-    .livro-titulo {
-        font-size: 22px;
-    }
-
-    .livros-content {
-        padding: 40px 80px;
-    }
-
-    .livro-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex: 1;
-    }
-
-    .livro-detalhes {
-        min-height: 70px;
+    span {
+        font-size: 20px;
+        width: 30%;
     }
 
     @keyframes animacaoNav {
